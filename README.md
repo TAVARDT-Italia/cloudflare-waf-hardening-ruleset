@@ -78,7 +78,7 @@ terraform apply -var="zone_id=IL_TUO_ZONE_ID"
 Se la vostra organizzazione necessita di audit approfonditi, conformità alle normative europee (RGPD / NIS 2) o protezione dedicata per agenti autonomi di IA:
 
 * **Portale Aziendale:** [TAVARDT Italia](https://ag.tavardt.com/it/sicurezza-informatica/)
-* **Canale di Contatto Tecnico:** [Richiedi Supporto Ingegneristico](https://ag.tavardt.com/it/contatti/)
+* **Canale di Contatto Tecnico:** [Contatta il Team di Ingegneria](https://ag.tavardt.com/it/contatti/)
 
 ---
 
