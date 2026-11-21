@@ -9,6 +9,21 @@ Regole avanzate di protezione WAF e sicurezza perimetrale per Cloudflare, confor
 
 Sviluppato e gestito dal team di ingegneria della sicurezza perimetrale di **[TAVARDT Italia](https://ag.tavardt.com/it/sicurezza-informatica/)**.
 
+> [!IMPORTANT]
+> **Architettura Universale e Agnostica:** Questo repository **non è limitato a WordPress**. È stato concepito per proteggere **API RESTful, microservizi moderni, frontend (Next.js, React, Vue) e backend aziendali (Node.js, Python, Go, Laravel, Java)**. Il blocco delle sonde CMS agisce come un **livello di igiene perimetrale attiva**, scartando il traffico cieco delle botnet direttamente sulla rete periferica di Cloudflare (< 1ms) prima che possa saturare connessioni TCP, memoria o CPU sui server di origine.
+
+---
+
+### Matrice di Protezione Multi-Stack
+
+| Livello di Difesa | Vettori Neutralizzati | Applicazioni e Stack Protetti |
+| :--- | :--- | :--- |
+| **Isolamento delle Credenziali** | Blocco immediato di `.env`, `.git`, `.sql`, `package.json`, `composer.json` | **API, Next.js, Node.js, Python, Go, Laravel, React** |
+| **Mitigazione di Scanner** | Blocco di Nikto, SQLMap, Acunetix, Masscan, Gobuster, Nmap | **Qualsiasi applicazione web, microservizio o gateway API** |
+| **Igiene dei Metodi HTTP** | Rifiuto dei verbi di debug non sicuri (`TRACE`, `TRACK`, `DEBUG`) | **API RESTful e microservizi di produzione** |
+| **Controllo degli Accessi** | Challenge gestito sulle rotte di autenticazione (`/admin`, `/login`) | **Pannelli di amministrazione, dashboard ed ERP web** |
+| **Igiene del Traffico Cieco** | Scarto perimetrale delle richieste verso `/xmlrpc.php` e trackback | **Azzeramento del carico inutile sui server di produzione** |
+
 ---
 
 ## 1. Panoramica dell'Architettura di Sicurezza Perimetrale
