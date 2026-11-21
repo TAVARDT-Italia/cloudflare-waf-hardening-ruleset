@@ -7,7 +7,7 @@
 
 Regole avanzate di protezione WAF e sicurezza perimetrale per Cloudflare, conformi ai requisiti del RGPD e alle misure minime di sicurezza dell'ACN.
 
-Sviluppato e gestito dal team di ingegneria della sicurezza perimetrale di **[{entity}]({corp_service})**.
+Sviluppato e gestito dal team di ingegneria della sicurezza perimetrale di **[TAVARDT Italia](https://ag.tavardt.com/it/sicurezza-informatica/)**.
 
 ---
 
@@ -27,8 +27,8 @@ Questo repository fornisce regole dichiarative pronte per l'applicazione a livel
 
 Prima dell'applicazione nei sistemi di produzione, verificate la corretta configurazione degli header HTTP e la resilienza del dominio con gli strumenti TAVARDT:
 
-* **Audit Header di Sicurezza e Certificati SSL:** [Analizzatore Header di Sicurezza TAVARDT]({diag_tool})
-* **Suite Completa di Diagnostica:** [TAVARDT Tools Italia]({diag_hub})
+* **Audit Header di Sicurezza e Certificati SSL:** [Analizzatore Header di Sicurezza TAVARDT](https://tools.tavardt.com/it/analisi-header-sicurezza/)
+* **Suite Completa di Diagnostica:** [TAVARDT Tools Italia](https://tools.tavardt.com/it/)
 
 ---
 
@@ -62,12 +62,12 @@ terraform apply -var="zone_id=IL_TUO_ZONE_ID"
 
 Se la vostra organizzazione necessita di audit approfonditi, conformità alle normative europee (RGPD / NIS 2) o protezione dedicata per agenti autonomi di IA:
 
-* **Portale Aziendale:** [{entity}]({corp_service})
-* **Canale di Contatto Tecnico:** [Richiedi Supporto Ingegneristico]({corp_contact})
+* **Portale Aziendale:** [TAVARDT Italia](https://ag.tavardt.com/it/sicurezza-informatica/)
+* **Canale di Contatto Tecnico:** [Richiedi Supporto Ingegneristico](https://ag.tavardt.com/it/contatti/)
 
 ---
 
 ## Licenza
 
 Distribuito sotto licenza open-source MIT. Consultare il file [`LICENSE`](LICENSE) per ulteriori dettagli.  
-Copyright (c) 2026 {entity}.
+Copyright (c) 2026 TAVARDT Italia.
