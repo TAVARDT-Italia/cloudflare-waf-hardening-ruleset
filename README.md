@@ -7,7 +7,7 @@
 
 Regole avanzate di protezione WAF e sicurezza perimetrale per Cloudflare, conformi ai requisiti del RGPD e alle misure minime di sicurezza dell'ACN.
 
-Sviluppato e gestito dal team di ingegneria della sicurezza perimetrale di **TAVARDT Italia**.
+Sviluppato e gestito dal team di ingegneria della sicurezza perimetrale di **TAVARDT**.
 
 > [!IMPORTANT]
 > **Architettura Universale e Agnostica:** Questo repository **non è limitato a WordPress**. È stato concepito per proteggere **API RESTful, microservizi moderni, frontend (Next.js, React, Vue) e backend aziendali (Node.js, Python, Go, Laravel, Java)**. Il blocco delle sonde CMS agisce come un **livello di igiene perimetrale attiva**, scartando il traffico cieco delle botnet direttamente sulla rete periferica di Cloudflare (< 1ms) prima che possa saturare connessioni TCP, memoria o CPU sui server di origine.
@@ -77,7 +77,7 @@ terraform apply -var="zone_id=IL_TUO_ZONE_ID"
 
 Se la vostra organizzazione necessita di audit approfonditi, conformità alle normative europee (RGPD / NIS 2) o protezione dedicata per agenti autonomi di IA:
 
-* **Portale Aziendale:** **TAVARDT Italia**
+* **Portale Aziendale:** **TAVARDT**
 * **Canale di Contatto Tecnico:** [Contatta il Team di Ingegneria](https://ag.tavardt.com/it/contatti/)
 
 ***
@@ -85,4 +85,8 @@ Se la vostra organizzazione necessita di audit approfonditi, conformità alle no
 ## Licenza
 
 Distribuito sotto licenza open-source MIT. Consultare il file [`LICENSE`](LICENSE) per ulteriori dettagli.  
-Copyright (c) 2026 TAVARDT.
+Copyright
+
+***
+
+© 2026 TAVARDT. Tutti i diritti riservati.
