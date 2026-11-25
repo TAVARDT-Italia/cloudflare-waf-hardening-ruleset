@@ -1,13 +1,10 @@
 # Cloudflare WAF Hardening Ruleset & Guida alla Sicurezza Edge
 
-[![Licence MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 [![Cloudflare WAF](https://img.shields.io/badge/Cloudflare-WAF%20Hardened-F38020.svg?logo=cloudflare)](https://cloudflare.com)
-[![Language](https://img.shields.io/badge/Language-Italiano-green.svg)](README.md)
 [![Diagnostics Suite](https://img.shields.io/badge/TAVARDT-Diagnostics-5b3cf5.svg)](https://tools.tavardt.com/it/analisi-header-sicurezza/)
+[![Licence MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 
 Regole avanzate di protezione WAF e sicurezza perimetrale per Cloudflare, conformi ai requisiti del RGPD e alle misure minime di sicurezza dell'ACN.
-
-Sviluppato e gestito dal team di ingegneria della sicurezza perimetrale di **TAVARDT**.
 
 > [!IMPORTANT]
 > **Architettura Universale e Agnostica:** Questo repository **non è limitato a WordPress**. È stato concepito per proteggere **API RESTful, microservizi moderni, frontend (Next.js, React, Vue) e backend aziendali (Node.js, Python, Go, Laravel, Java)**. Il blocco delle sonde CMS agisce come un **livello di igiene perimetrale attiva**, scartando il traffico cieco delle botnet direttamente sulla rete periferica di Cloudflare (< 1ms) prima che possa saturare connessioni TCP, memoria o CPU sui server di origine.
@@ -73,16 +70,7 @@ terraform apply -var="zone_id=IL_TUO_ZONE_ID"
 
 ***
 
-## 4. Consulenza Specialistica e Supporto SOC Continuo
-
-Se la vostra organizzazione necessita di audit approfonditi, conformità alle normative europee (RGPD / NIS 2) o protezione dedicata per agenti autonomi di IA:
-
-* **Portale Aziendale:** **TAVARDT**
-* **Canale di Contatto Tecnico:** [Contatta il Team di Ingegneria](https://ag.tavardt.com/it/contatti/)
-
-***
-
-## Link Utili
+## 4. Link Utili
 
 * **Portale Aziendale:** https://ag.tavardt.com/it/
 * **Suite di Diagnostica:** https://tools.tavardt.com/it/
@@ -92,7 +80,7 @@ Se la vostra organizzazione necessita di audit approfonditi, conformità alle no
 
 ### Licenza
 
-Distribuito sotto licenza open-source MIT. Consultare il file [`LICENSE`](LICENSE) per ulteriori dettagli.
+Distribuito sotto licenza open-source MIT.
 
 ***
 
