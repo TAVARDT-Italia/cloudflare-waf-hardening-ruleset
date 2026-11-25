@@ -82,18 +82,17 @@ Se la vostra organizzazione necessita di audit approfonditi, conformità alle no
 
 ***
 
-## Licenza
-
-Distribuito sotto licenza open-source MIT. Consultare il file [`LICENSE`](LICENSE) per ulteriori dettagli.  
-Copyright
-
-***
-
 ## Link Utili
 
 * **Portale Aziendale:** https://ag.tavardt.com/it/
 * **Suite di Diagnostica:** https://tools.tavardt.com/it/
 * **Contatto Tecnico:** https://ag.tavardt.com/it/contatto/
+
+***
+
+### Licenza
+
+Distribuito sotto licenza open-source MIT. Consultare il file [`LICENSE`](LICENSE) per ulteriori dettagli.
 
 ***
 
