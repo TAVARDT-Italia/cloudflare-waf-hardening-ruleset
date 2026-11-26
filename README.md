@@ -1,3 +1,9 @@
+<p align="center">
+  <a href="https://ag.tavardt.com/it/">
+    <img src="https://ag.tavardt.com/img/tavardt-banner.png" alt="TAVARDT" width="1024" />
+  </a>
+</p>
+
 # Cloudflare WAF Hardening Ruleset e Blueprint di Sicurezza di Bordo
 
 [![Cloudflare WAF](https://img.shields.io/badge/Cloudflare-WAF%20Hardened-F38020.svg?logo=cloudflare)](https://cloudflare.com)
